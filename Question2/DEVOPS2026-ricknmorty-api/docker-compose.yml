@@ -1,0 +1,36 @@
+services:
+  db:
+    image: ricknmorty-db
+    container_name: ricknmorty-postgres
+    environment:
+      POSTGRES_USER: admin
+      POSTGRES_PASSWORD: admin
+      POSTGRES_DB: ricknmorty
+    volumes:
+      - pg_ricknmorty_data:/var/lib/postgresql/data
+    networks:
+      - ricknmorty-net
+
+  api:
+    build:
+      context: .
+    container_name: ricknmorty-api
+    ports:
+      - "8080:8080"
+    environment:
+      - SPRING_DATASOURCE_URL=jdbc:postgresql://db:5432/ricknmorty
+      - SPRING_DATASOURCE_USERNAME=admin
+      - SPRING_DATASOURCE_PASSWORD=admin
+      # Opcional: Atualiza o schema automaticamente caso use Hibernate/JPA
+      - SPRING_JPA_HIBERNATE_DDL_AUTO=update 
+    depends_on:
+      - db
+    networks:
+      - ricknmorty-net
+
+volumes:
+  pg_ricknmorty_data:
+
+networks:
+  ricknmorty-net:
+    driver: bridge

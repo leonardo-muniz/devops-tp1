@@ -1,0 +1,52 @@
+C:\Users\leona\Desktop\INFNET_2T26\DR3_TP1\Question2\DEVOPS2026-ricknmorty-api>docker compose logs api
+ricknmorty-api  |
+ricknmorty-api  |   .   ____          _            __ _ _
+ricknmorty-api  |  /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+ricknmorty-api  | ( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ricknmorty-api  |  \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+ricknmorty-api  |   '  |____| .__|_| |_|_| |_\__, | / / / /
+ricknmorty-api  |  =========|_|==============|___/=/_/_/_/
+ricknmorty-api  |
+ricknmorty-api  |  :: Spring Boot ::                (v4.0.3)
+ricknmorty-api  |
+ricknmorty-api  | 2026-03-06T21:46:23.142Z  INFO 1 --- [           main] b.c.i.r.RicknmortyApiApplication         : Starting RicknmortyApiApplication v0.0.1-SNAPSHOT using Java 17.0.12 with PID 1 (/app/app.jar started by nonroot in /app)
+ricknmorty-api  | 2026-03-06T21:46:23.150Z  INFO 1 --- [           main] b.c.i.r.RicknmortyApiApplication         : No active profile set, falling back to 1 default profile: "default"
+ricknmorty-api  | 2026-03-06T21:46:24.481Z  INFO 1 --- [           main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+ricknmorty-api  | 2026-03-06T21:46:24.566Z  INFO 1 --- [           main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 69 ms. Found 1 JPA repository interface.
+ricknmorty-api  | 2026-03-06T21:46:25.570Z  INFO 1 --- [           main] o.s.boot.tomcat.TomcatWebServer          : Tomcat initialized with port 8080 (http)
+ricknmorty-api  | 2026-03-06T21:46:25.591Z  INFO 1 --- [           main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+ricknmorty-api  | 2026-03-06T21:46:25.591Z  INFO 1 --- [           main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/11.0.18]
+ricknmorty-api  | 2026-03-06T21:46:25.648Z  INFO 1 --- [           main] b.w.c.s.WebApplicationContextInitializer : Root WebApplicationContext: initialization completed in 2399 ms
+ricknmorty-api  | 2026-03-06T21:46:26.017Z  INFO 1 --- [           main] org.hibernate.orm.jpa                    : HHH008540: Processing PersistenceUnitInfo [name: default]
+ricknmorty-api  | 2026-03-06T21:46:26.085Z  INFO 1 --- [           main] org.hibernate.orm.core                   : HHH000001: Hibernate ORM core version 7.2.4.Final
+ricknmorty-api  | 2026-03-06T21:46:26.769Z  INFO 1 --- [           main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+ricknmorty-api  | 2026-03-06T21:46:26.811Z  INFO 1 --- [           main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+ricknmorty-api  | 2026-03-06T21:46:27.089Z  INFO 1 --- [           main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@65503a26
+ricknmorty-api  | 2026-03-06T21:46:27.091Z  INFO 1 --- [           main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+ricknmorty-api  | 2026-03-06T21:46:27.140Z  WARN 1 --- [           main] org.hibernate.orm.deprecation            : HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+ricknmorty-api  | 2026-03-06T21:46:27.174Z  INFO 1 --- [           main] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+ricknmorty-api  |       Database JDBC URL [jdbc:postgresql://db:5432/ricknmorty]
+ricknmorty-api  |       Database driver: PostgreSQL JDBC Driver
+ricknmorty-api  |       Database dialect: PostgreSQLDialect
+ricknmorty-api  |       Database version: 17.8
+ricknmorty-api  |       Default catalog/schema: ricknmorty/public
+ricknmorty-api  |       Autocommit mode: undefined/unknown
+ricknmorty-api  |       Isolation level: READ_COMMITTED [default READ_COMMITTED]
+ricknmorty-api  |       JDBC fetch size: none
+ricknmorty-api  |       Pool: DataSourceConnectionProvider
+ricknmorty-api  |       Minimum pool size: undefined/unknown
+ricknmorty-api  |       Maximum pool size: undefined/unknown
+ricknmorty-api  | 2026-03-06T21:46:28.384Z  INFO 1 --- [           main] org.hibernate.orm.core                   : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+ricknmorty-api  | 2026-03-06T21:46:28.509Z  INFO 1 --- [           main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+ricknmorty-api  | 2026-03-06T21:46:28.617Z  INFO 1 --- [           main] o.s.d.j.r.query.QueryEnhancerFactories   : Hibernate is in classpath; If applicable, HQL parser will be used.
+ricknmorty-api  | 2026-03-06T21:46:28.820Z  WARN 1 --- [           main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+ricknmorty-api  | 2026-03-06T21:46:29.551Z  INFO 1 --- [           main] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 1 endpoint beneath base path '/actuator'
+ricknmorty-api  | 2026-03-06T21:46:29.645Z  INFO 1 --- [           main] o.s.boot.tomcat.TomcatWebServer          : Tomcat started on port 8080 (http) with context path '/'
+ricknmorty-api  | 2026-03-06T21:46:29.657Z  INFO 1 --- [           main] b.c.i.r.RicknmortyApiApplication         : Started RicknmortyApiApplication in 7.388 seconds (process running for 8.338)
+ricknmorty-api  | 2026-03-06T21:47:26.527Z  INFO 1 --- [nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+ricknmorty-api  | 2026-03-06T21:47:26.528Z  INFO 1 --- [nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+ricknmorty-api  | 2026-03-06T21:47:26.531Z  INFO 1 --- [nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 3 ms
+ricknmorty-api  | 2026-03-06T21:47:33.301Z  INFO 1 --- [nio-8080-exec-3] b.c.i.ricknmortyapi.CharacterController  : page: 0 size: 10
+ricknmorty-api  | 2026-03-06T21:48:43.864Z  INFO 1 --- [nio-8080-exec-6] b.c.i.ricknmortyapi.CharacterController  : page: 0 size: 10
+
+C:\Users\leona\Desktop\INFNET_2T26\DR3_TP1\Question2\DEVOPS2026-ricknmorty-api>

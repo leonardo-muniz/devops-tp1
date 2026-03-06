@@ -1,0 +1,645 @@
+C:\Users\leona\Desktop\INFNET_2T26\DR3_TP1\Question2\DEVOPS2026-ricknmorty-api>docker compose logs db
+ricknmorty-postgres  | The files belonging to this database system will be owned by user "postgres".
+ricknmorty-postgres  | This user must also own the server process.
+ricknmorty-postgres  |
+ricknmorty-postgres  | The database cluster will be initialized with locale "en_US.utf8".
+ricknmorty-postgres  | The default database encoding has accordingly been set to "UTF8".
+ricknmorty-postgres  | The default text search configuration will be set to "english".
+ricknmorty-postgres  |
+ricknmorty-postgres  | Data page checksums are disabled.
+ricknmorty-postgres  |
+ricknmorty-postgres  | fixing permissions on existing directory /var/lib/postgresql/data ... ok
+ricknmorty-postgres  | creating subdirectories ... ok
+ricknmorty-postgres  | selecting dynamic shared memory implementation ... posix
+ricknmorty-postgres  | selecting default "max_connections" ... 100
+ricknmorty-postgres  | selecting default "shared_buffers" ... 128MB
+ricknmorty-postgres  | selecting default time zone ... UTC
+ricknmorty-postgres  | creating configuration files ... ok
+ricknmorty-postgres  | running bootstrap script ... ok
+ricknmorty-postgres  | sh: locale: not found
+ricknmorty-postgres  | 2026-03-06 21:46:22.035 UTC [35] WARNING:  no usable system locales were found
+ricknmorty-postgres  | performing post-bootstrap initialization ... ok
+ricknmorty-postgres  | syncing data to disk ... ok
+ricknmorty-postgres  |
+ricknmorty-postgres  |
+ricknmorty-postgres  | Success. You can now start the database server using:
+ricknmorty-postgres  |
+ricknmorty-postgres  |     pg_ctl -D /var/lib/postgresql/data -l logfile start
+ricknmorty-postgres  |
+ricknmorty-postgres  | initdb: warning: enabling "trust" authentication for local connections
+ricknmorty-postgres  | initdb: hint: You can change this by editing pg_hba.conf or using the option -A, or --auth-local and --auth-host, the next time you run initdb.
+ricknmorty-postgres  | waiting for server to start....2026-03-06 21:46:24.039 UTC [41] LOG:  starting PostgreSQL 17.8 on x86_64-pc-linux-musl, compiled by gcc (Alpine 15.2.0) 15.2.0, 64-bit
+ricknmorty-postgres  | 2026-03-06 21:46:24.044 UTC [41] LOG:  listening on Unix socket "/var/run/postgresql/.s.PGSQL.5432"
+ricknmorty-postgres  | 2026-03-06 21:46:24.062 UTC [44] LOG:  database system was shut down at 2026-03-06 21:46:22 UTC
+ricknmorty-postgres  | 2026-03-06 21:46:24.076 UTC [41] LOG:  database system is ready to accept connections
+ricknmorty-postgres  |  done
+ricknmorty-postgres  | server started
+ricknmorty-postgres  | CREATE DATABASE
+ricknmorty-postgres  |
+ricknmorty-postgres  |
+ricknmorty-postgres  | /usr/local/bin/docker-entrypoint.sh: running /docker-entrypoint-initdb.d/data.sql
+ricknmorty-postgres  | CREATE TABLE
+ricknmorty-postgres  | INSERT 0 1
+ricknmorty-postgres  | INSERT 0 1
+ricknmorty-postgres  | INSERT 0 1
+ricknmorty-postgres  | INSERT 0 1
+ricknmorty-postgres  | INSERT 0 1
+ricknmorty-postgres  | INSERT 0 1
+ricknmorty-postgres  | INSERT 0 1
+ricknmorty-postgres  | INSERT 0 1
+ricknmorty-postgres  | INSERT 0 1
+ricknmorty-postgres  | INSERT 0 1
+ricknmorty-postgres  | INSERT 0 1
+ricknmorty-postgres  | INSERT 0 1
+ricknmorty-postgres  | INSERT 0 1
+ricknmorty-postgres  | INSERT 0 1
+ricknmorty-postgres  | INSERT 0 1
+ricknmorty-postgres  | INSERT 0 1
+ricknmorty-postgres  | INSERT 0 1
+ricknmorty-postgres  | INSERT 0 1
+ricknmorty-postgres  | INSERT 0 1
+ricknmorty-postgres  | INSERT 0 1
+ricknmorty-postgres  | INSERT 0 1
+ricknmorty-postgres  | INSERT 0 1
+ricknmorty-postgres  | INSERT 0 1
+ricknmorty-postgres  | INSERT 0 1
+ricknmorty-postgres  | INSERT 0 1
+ricknmorty-postgres  | INSERT 0 1
+ricknmorty-postgres  | INSERT 0 1
+ricknmorty-postgres  | INSERT 0 1
+ricknmorty-postgres  | INSERT 0 1
+ricknmorty-postgres  | INSERT 0 1
+ricknmorty-postgres  | INSERT 0 1
+ricknmorty-postgres  | INSERT 0 1
+ricknmorty-postgres  | INSERT 0 1
+ricknmorty-postgres  | INSERT 0 1
+ricknmorty-postgres  | INSERT 0 1
+ricknmorty-postgres  | INSERT 0 1
+ricknmorty-postgres  | INSERT 0 1
+ricknmorty-postgres  | INSERT 0 1
+ricknmorty-postgres  | INSERT 0 1
+ricknmorty-postgres  | INSERT 0 1
+ricknmorty-postgres  | INSERT 0 1
+ricknmorty-postgres  | INSERT 0 1
+ricknmorty-postgres  | INSERT 0 1
+ricknmorty-postgres  | INSERT 0 1
+ricknmorty-postgres  | INSERT 0 1
+ricknmorty-postgres  | INSERT 0 1
+ricknmorty-postgres  | INSERT 0 1
+ricknmorty-postgres  | INSERT 0 1
+ricknmorty-postgres  | INSERT 0 1
+ricknmorty-postgres  | INSERT 0 1
+ricknmorty-postgres  | INSERT 0 1
+ricknmorty-postgres  | INSERT 0 1
+ricknmorty-postgres  | INSERT 0 1
+ricknmorty-postgres  | INSERT 0 1
+ricknmorty-postgres  | INSERT 0 1
+ricknmorty-postgres  | INSERT 0 1
+ricknmorty-postgres  | INSERT 0 1
+ricknmorty-postgres  | INSERT 0 1
+ricknmorty-postgres  | INSERT 0 1
+ricknmorty-postgres  | INSERT 0 1
+ricknmorty-postgres  | INSERT 0 1
+ricknmorty-postgres  | INSERT 0 1
+ricknmorty-postgres  | INSERT 0 1
+ricknmorty-postgres  | INSERT 0 1
+ricknmorty-postgres  | INSERT 0 1
+ricknmorty-postgres  | INSERT 0 1
+ricknmorty-postgres  | INSERT 0 1
+ricknmorty-postgres  | INSERT 0 1
+ricknmorty-postgres  | INSERT 0 1
+ricknmorty-postgres  | INSERT 0 1
+ricknmorty-postgres  | INSERT 0 1
+ricknmorty-postgres  | INSERT 0 1
+ricknmorty-postgres  | INSERT 0 1
+ricknmorty-postgres  | INSERT 0 1
+ricknmorty-postgres  | INSERT 0 1
+ricknmorty-postgres  | INSERT 0 1
+ricknmorty-postgres  | INSERT 0 1
+ricknmorty-postgres  | INSERT 0 1
+ricknmorty-postgres  | INSERT 0 1
+ricknmorty-postgres  | INSERT 0 1
+ricknmorty-postgres  | INSERT 0 1
+ricknmorty-postgres  | INSERT 0 1
+ricknmorty-postgres  | INSERT 0 1
+ricknmorty-postgres  | INSERT 0 1
+ricknmorty-postgres  | INSERT 0 1
+ricknmorty-postgres  | INSERT 0 1
+ricknmorty-postgres  | INSERT 0 1
+ricknmorty-postgres  | INSERT 0 1
+ricknmorty-postgres  | INSERT 0 1
+ricknmorty-postgres  | INSERT 0 1
+ricknmorty-postgres  | INSERT 0 1
+ricknmorty-postgres  | INSERT 0 1
+ricknmorty-postgres  | INSERT 0 1
+ricknmorty-postgres  | INSERT 0 1
+ricknmorty-postgres  | INSERT 0 1
+ricknmorty-postgres  | INSERT 0 1
+ricknmorty-postgres  | INSERT 0 1
+ricknmorty-postgres  | INSERT 0 1
+ricknmorty-postgres  | INSERT 0 1
+ricknmorty-postgres  | INSERT 0 1
+ricknmorty-postgres  | INSERT 0 1
+ricknmorty-postgres  | INSERT 0 1
+ricknmorty-postgres  | INSERT 0 1
+ricknmorty-postgres  | INSERT 0 1
+ricknmorty-postgres  | INSERT 0 1
+ricknmorty-postgres  | INSERT 0 1
+ricknmorty-postgres  | INSERT 0 1
+ricknmorty-postgres  | INSERT 0 1
+ricknmorty-postgres  | INSERT 0 1
+ricknmorty-postgres  | INSERT 0 1
+ricknmorty-postgres  | INSERT 0 1
+ricknmorty-postgres  | INSERT 0 1
+ricknmorty-postgres  | INSERT 0 1
+ricknmorty-postgres  | INSERT 0 1
+ricknmorty-postgres  | INSERT 0 1
+ricknmorty-postgres  | INSERT 0 1
+ricknmorty-postgres  | INSERT 0 1
+ricknmorty-postgres  | INSERT 0 1
+ricknmorty-postgres  | INSERT 0 1
+ricknmorty-postgres  | INSERT 0 1
+ricknmorty-postgres  | INSERT 0 1
+ricknmorty-postgres  | INSERT 0 1
+ricknmorty-postgres  | INSERT 0 1
+ricknmorty-postgres  | INSERT 0 1
+ricknmorty-postgres  | INSERT 0 1
+ricknmorty-postgres  | INSERT 0 1
+ricknmorty-postgres  | INSERT 0 1
+ricknmorty-postgres  | INSERT 0 1
+ricknmorty-postgres  | INSERT 0 1
+ricknmorty-postgres  | INSERT 0 1
+ricknmorty-postgres  | INSERT 0 1
+ricknmorty-postgres  | INSERT 0 1
+ricknmorty-postgres  | INSERT 0 1
+ricknmorty-postgres  | INSERT 0 1
+ricknmorty-postgres  | INSERT 0 1
+ricknmorty-postgres  | INSERT 0 1
+ricknmorty-postgres  | INSERT 0 1
+ricknmorty-postgres  | INSERT 0 1
+ricknmorty-postgres  | INSERT 0 1
+ricknmorty-postgres  | INSERT 0 1
+ricknmorty-postgres  | INSERT 0 1
+ricknmorty-postgres  | INSERT 0 1
+ricknmorty-postgres  | INSERT 0 1
+ricknmorty-postgres  | INSERT 0 1
+ricknmorty-postgres  | INSERT 0 1
+ricknmorty-postgres  | INSERT 0 1
+ricknmorty-postgres  | INSERT 0 1
+ricknmorty-postgres  | INSERT 0 1
+ricknmorty-postgres  | INSERT 0 1
+ricknmorty-postgres  | INSERT 0 1
+ricknmorty-postgres  | INSERT 0 1
+ricknmorty-postgres  | INSERT 0 1
+ricknmorty-postgres  | INSERT 0 1
+ricknmorty-postgres  | INSERT 0 1
+ricknmorty-postgres  | INSERT 0 1
+ricknmorty-postgres  | INSERT 0 1
+ricknmorty-postgres  | INSERT 0 1
+ricknmorty-postgres  | INSERT 0 1
+ricknmorty-postgres  | INSERT 0 1
+ricknmorty-postgres  | INSERT 0 1
+ricknmorty-postgres  | INSERT 0 1
+ricknmorty-postgres  | INSERT 0 1
+ricknmorty-postgres  | INSERT 0 1
+ricknmorty-postgres  | INSERT 0 1
+ricknmorty-postgres  | INSERT 0 1
+ricknmorty-postgres  | INSERT 0 1
+ricknmorty-postgres  | INSERT 0 1
+ricknmorty-postgres  | INSERT 0 1
+ricknmorty-postgres  | INSERT 0 1
+ricknmorty-postgres  | INSERT 0 1
+ricknmorty-postgres  | INSERT 0 1
+ricknmorty-postgres  | INSERT 0 1
+ricknmorty-postgres  | INSERT 0 1
+ricknmorty-postgres  | INSERT 0 1
+ricknmorty-postgres  | INSERT 0 1
+ricknmorty-postgres  | INSERT 0 1
+ricknmorty-postgres  | INSERT 0 1
+ricknmorty-postgres  | INSERT 0 1
+ricknmorty-postgres  | INSERT 0 1
+ricknmorty-postgres  | INSERT 0 1
+ricknmorty-postgres  | INSERT 0 1
+ricknmorty-postgres  | INSERT 0 1
+ricknmorty-postgres  | INSERT 0 1
+ricknmorty-postgres  | INSERT 0 1
+ricknmorty-postgres  | INSERT 0 1
+ricknmorty-postgres  | INSERT 0 1
+ricknmorty-postgres  | INSERT 0 1
+ricknmorty-postgres  | INSERT 0 1
+ricknmorty-postgres  | INSERT 0 1
+ricknmorty-postgres  | INSERT 0 1
+ricknmorty-postgres  | INSERT 0 1
+ricknmorty-postgres  | INSERT 0 1
+ricknmorty-postgres  | INSERT 0 1
+ricknmorty-postgres  | INSERT 0 1
+ricknmorty-postgres  | INSERT 0 1
+ricknmorty-postgres  | INSERT 0 1
+ricknmorty-postgres  | INSERT 0 1
+ricknmorty-postgres  | INSERT 0 1
+ricknmorty-postgres  | INSERT 0 1
+ricknmorty-postgres  | INSERT 0 1
+ricknmorty-postgres  | INSERT 0 1
+ricknmorty-postgres  | INSERT 0 1
+ricknmorty-postgres  | INSERT 0 1
+ricknmorty-postgres  | INSERT 0 1
+ricknmorty-postgres  | INSERT 0 1
+ricknmorty-postgres  | INSERT 0 1
+ricknmorty-postgres  | INSERT 0 1
+ricknmorty-postgres  | INSERT 0 1
+ricknmorty-postgres  | INSERT 0 1
+ricknmorty-postgres  | INSERT 0 1
+ricknmorty-postgres  | INSERT 0 1
+ricknmorty-postgres  | INSERT 0 1
+ricknmorty-postgres  | INSERT 0 1
+ricknmorty-postgres  | INSERT 0 1
+ricknmorty-postgres  | INSERT 0 1
+ricknmorty-postgres  | INSERT 0 1
+ricknmorty-postgres  | INSERT 0 1
+ricknmorty-postgres  | INSERT 0 1
+ricknmorty-postgres  | INSERT 0 1
+ricknmorty-postgres  | INSERT 0 1
+ricknmorty-postgres  | INSERT 0 1
+ricknmorty-postgres  | INSERT 0 1
+ricknmorty-postgres  | INSERT 0 1
+ricknmorty-postgres  | INSERT 0 1
+ricknmorty-postgres  | INSERT 0 1
+ricknmorty-postgres  | INSERT 0 1
+ricknmorty-postgres  | INSERT 0 1
+ricknmorty-postgres  | INSERT 0 1
+ricknmorty-postgres  | INSERT 0 1
+ricknmorty-postgres  | INSERT 0 1
+ricknmorty-postgres  | INSERT 0 1
+ricknmorty-postgres  | INSERT 0 1
+ricknmorty-postgres  | INSERT 0 1
+ricknmorty-postgres  | INSERT 0 1
+ricknmorty-postgres  | INSERT 0 1
+ricknmorty-postgres  | INSERT 0 1
+ricknmorty-postgres  | INSERT 0 1
+ricknmorty-postgres  | INSERT 0 1
+ricknmorty-postgres  | INSERT 0 1
+ricknmorty-postgres  | INSERT 0 1
+ricknmorty-postgres  | INSERT 0 1
+ricknmorty-postgres  | INSERT 0 1
+ricknmorty-postgres  | INSERT 0 1
+ricknmorty-postgres  | INSERT 0 1
+ricknmorty-postgres  | INSERT 0 1
+ricknmorty-postgres  | INSERT 0 1
+ricknmorty-postgres  | INSERT 0 1
+ricknmorty-postgres  | INSERT 0 1
+ricknmorty-postgres  | INSERT 0 1
+ricknmorty-postgres  | INSERT 0 1
+ricknmorty-postgres  | INSERT 0 1
+ricknmorty-postgres  | INSERT 0 1
+ricknmorty-postgres  | INSERT 0 1
+ricknmorty-postgres  | INSERT 0 1
+ricknmorty-postgres  | INSERT 0 1
+ricknmorty-postgres  | INSERT 0 1
+ricknmorty-postgres  | INSERT 0 1
+ricknmorty-postgres  | INSERT 0 1
+ricknmorty-postgres  | INSERT 0 1
+ricknmorty-postgres  | INSERT 0 1
+ricknmorty-postgres  | INSERT 0 1
+ricknmorty-postgres  | INSERT 0 1
+ricknmorty-postgres  | INSERT 0 1
+ricknmorty-postgres  | INSERT 0 1
+ricknmorty-postgres  | INSERT 0 1
+ricknmorty-postgres  | INSERT 0 1
+ricknmorty-postgres  | INSERT 0 1
+ricknmorty-postgres  | INSERT 0 1
+ricknmorty-postgres  | INSERT 0 1
+ricknmorty-postgres  | INSERT 0 1
+ricknmorty-postgres  | INSERT 0 1
+ricknmorty-postgres  | INSERT 0 1
+ricknmorty-postgres  | INSERT 0 1
+ricknmorty-postgres  | INSERT 0 1
+ricknmorty-postgres  | INSERT 0 1
+ricknmorty-postgres  | INSERT 0 1
+ricknmorty-postgres  | INSERT 0 1
+ricknmorty-postgres  | INSERT 0 1
+ricknmorty-postgres  | INSERT 0 1
+ricknmorty-postgres  | INSERT 0 1
+ricknmorty-postgres  | INSERT 0 1
+ricknmorty-postgres  | INSERT 0 1
+ricknmorty-postgres  | INSERT 0 1
+ricknmorty-postgres  | INSERT 0 1
+ricknmorty-postgres  | INSERT 0 1
+ricknmorty-postgres  | INSERT 0 1
+ricknmorty-postgres  | INSERT 0 1
+ricknmorty-postgres  | INSERT 0 1
+ricknmorty-postgres  | INSERT 0 1
+ricknmorty-postgres  | INSERT 0 1
+ricknmorty-postgres  | INSERT 0 1
+ricknmorty-postgres  | INSERT 0 1
+ricknmorty-postgres  | INSERT 0 1
+ricknmorty-postgres  | INSERT 0 1
+ricknmorty-postgres  | INSERT 0 1
+ricknmorty-postgres  | INSERT 0 1
+ricknmorty-postgres  | INSERT 0 1
+ricknmorty-postgres  | INSERT 0 1
+ricknmorty-postgres  | INSERT 0 1
+ricknmorty-postgres  | INSERT 0 1
+ricknmorty-postgres  | INSERT 0 1
+ricknmorty-postgres  | INSERT 0 1
+ricknmorty-postgres  | INSERT 0 1
+ricknmorty-postgres  | INSERT 0 1
+ricknmorty-postgres  | INSERT 0 1
+ricknmorty-postgres  | INSERT 0 1
+ricknmorty-postgres  | INSERT 0 1
+ricknmorty-postgres  | INSERT 0 1
+ricknmorty-postgres  | INSERT 0 1
+ricknmorty-postgres  | INSERT 0 1
+ricknmorty-postgres  | INSERT 0 1
+ricknmorty-postgres  | INSERT 0 1
+ricknmorty-postgres  | INSERT 0 1
+ricknmorty-postgres  | INSERT 0 1
+ricknmorty-postgres  | INSERT 0 1
+ricknmorty-postgres  | INSERT 0 1
+ricknmorty-postgres  | INSERT 0 1
+ricknmorty-postgres  | INSERT 0 1
+ricknmorty-postgres  | INSERT 0 1
+ricknmorty-postgres  | INSERT 0 1
+ricknmorty-postgres  | INSERT 0 1
+ricknmorty-postgres  | INSERT 0 1
+ricknmorty-postgres  | INSERT 0 1
+ricknmorty-postgres  | INSERT 0 1
+ricknmorty-postgres  | INSERT 0 1
+ricknmorty-postgres  | INSERT 0 1
+ricknmorty-postgres  | INSERT 0 1
+ricknmorty-postgres  | INSERT 0 1
+ricknmorty-postgres  | INSERT 0 1
+ricknmorty-postgres  | INSERT 0 1
+ricknmorty-postgres  | INSERT 0 1
+ricknmorty-postgres  | INSERT 0 1
+ricknmorty-postgres  | INSERT 0 1
+ricknmorty-postgres  | INSERT 0 1
+ricknmorty-postgres  | INSERT 0 1
+ricknmorty-postgres  | INSERT 0 1
+ricknmorty-postgres  | INSERT 0 1
+ricknmorty-postgres  | INSERT 0 1
+ricknmorty-postgres  | INSERT 0 1
+ricknmorty-postgres  | INSERT 0 1
+ricknmorty-postgres  | INSERT 0 1
+ricknmorty-postgres  | INSERT 0 1
+ricknmorty-postgres  | INSERT 0 1
+ricknmorty-postgres  | INSERT 0 1
+ricknmorty-postgres  | INSERT 0 1
+ricknmorty-postgres  | INSERT 0 1
+ricknmorty-postgres  | INSERT 0 1
+ricknmorty-postgres  | INSERT 0 1
+ricknmorty-postgres  | INSERT 0 1
+ricknmorty-postgres  | INSERT 0 1
+ricknmorty-postgres  | INSERT 0 1
+ricknmorty-postgres  | INSERT 0 1
+ricknmorty-postgres  | INSERT 0 1
+ricknmorty-postgres  | INSERT 0 1
+ricknmorty-postgres  | INSERT 0 1
+ricknmorty-postgres  | INSERT 0 1
+ricknmorty-postgres  | INSERT 0 1
+ricknmorty-postgres  | INSERT 0 1
+ricknmorty-postgres  | INSERT 0 1
+ricknmorty-postgres  | INSERT 0 1
+ricknmorty-postgres  | INSERT 0 1
+ricknmorty-postgres  | INSERT 0 1
+ricknmorty-postgres  | INSERT 0 1
+ricknmorty-postgres  | INSERT 0 1
+ricknmorty-postgres  | INSERT 0 1
+ricknmorty-postgres  | INSERT 0 1
+ricknmorty-postgres  | INSERT 0 1
+ricknmorty-postgres  | INSERT 0 1
+ricknmorty-postgres  | INSERT 0 1
+ricknmorty-postgres  | INSERT 0 1
+ricknmorty-postgres  | INSERT 0 1
+ricknmorty-postgres  | INSERT 0 1
+ricknmorty-postgres  | INSERT 0 1
+ricknmorty-postgres  | INSERT 0 1
+ricknmorty-postgres  | INSERT 0 1
+ricknmorty-postgres  | INSERT 0 1
+ricknmorty-postgres  | INSERT 0 1
+ricknmorty-postgres  | INSERT 0 1
+ricknmorty-postgres  | INSERT 0 1
+ricknmorty-postgres  | INSERT 0 1
+ricknmorty-postgres  | INSERT 0 1
+ricknmorty-postgres  | INSERT 0 1
+ricknmorty-postgres  | INSERT 0 1
+ricknmorty-postgres  | INSERT 0 1
+ricknmorty-postgres  | INSERT 0 1
+ricknmorty-postgres  | INSERT 0 1
+ricknmorty-postgres  | INSERT 0 1
+ricknmorty-postgres  | INSERT 0 1
+ricknmorty-postgres  | INSERT 0 1
+ricknmorty-postgres  | INSERT 0 1
+ricknmorty-postgres  | INSERT 0 1
+ricknmorty-postgres  | INSERT 0 1
+ricknmorty-postgres  | INSERT 0 1
+ricknmorty-postgres  | INSERT 0 1
+ricknmorty-postgres  | INSERT 0 1
+ricknmorty-postgres  | INSERT 0 1
+ricknmorty-postgres  | INSERT 0 1
+ricknmorty-postgres  | INSERT 0 1
+ricknmorty-postgres  | INSERT 0 1
+ricknmorty-postgres  | INSERT 0 1
+ricknmorty-postgres  | INSERT 0 1
+ricknmorty-postgres  | INSERT 0 1
+ricknmorty-postgres  | INSERT 0 1
+ricknmorty-postgres  | INSERT 0 1
+ricknmorty-postgres  | INSERT 0 1
+ricknmorty-postgres  | INSERT 0 1
+ricknmorty-postgres  | INSERT 0 1
+ricknmorty-postgres  | INSERT 0 1
+ricknmorty-postgres  | INSERT 0 1
+ricknmorty-postgres  | INSERT 0 1
+ricknmorty-postgres  | INSERT 0 1
+ricknmorty-postgres  | INSERT 0 1
+ricknmorty-postgres  | INSERT 0 1
+ricknmorty-postgres  | INSERT 0 1
+ricknmorty-postgres  | INSERT 0 1
+ricknmorty-postgres  | INSERT 0 1
+ricknmorty-postgres  | INSERT 0 1
+ricknmorty-postgres  | INSERT 0 1
+ricknmorty-postgres  | INSERT 0 1
+ricknmorty-postgres  | INSERT 0 1
+ricknmorty-postgres  | INSERT 0 1
+ricknmorty-postgres  | INSERT 0 1
+ricknmorty-postgres  | INSERT 0 1
+ricknmorty-postgres  | INSERT 0 1
+ricknmorty-postgres  | INSERT 0 1
+ricknmorty-postgres  | INSERT 0 1
+ricknmorty-postgres  | INSERT 0 1
+ricknmorty-postgres  | INSERT 0 1
+ricknmorty-postgres  | INSERT 0 1
+ricknmorty-postgres  | INSERT 0 1
+ricknmorty-postgres  | INSERT 0 1
+ricknmorty-postgres  | INSERT 0 1
+ricknmorty-postgres  | INSERT 0 1
+ricknmorty-postgres  | INSERT 0 1
+ricknmorty-postgres  | INSERT 0 1
+ricknmorty-postgres  | INSERT 0 1
+ricknmorty-postgres  | INSERT 0 1
+ricknmorty-postgres  | INSERT 0 1
+ricknmorty-postgres  | INSERT 0 1
+ricknmorty-postgres  | INSERT 0 1
+ricknmorty-postgres  | INSERT 0 1
+ricknmorty-postgres  | INSERT 0 1
+ricknmorty-postgres  | INSERT 0 1
+ricknmorty-postgres  | INSERT 0 1
+ricknmorty-postgres  | INSERT 0 1
+ricknmorty-postgres  | INSERT 0 1
+ricknmorty-postgres  | INSERT 0 1
+ricknmorty-postgres  | INSERT 0 1
+ricknmorty-postgres  | INSERT 0 1
+ricknmorty-postgres  | INSERT 0 1
+ricknmorty-postgres  | INSERT 0 1
+ricknmorty-postgres  | INSERT 0 1
+ricknmorty-postgres  | INSERT 0 1
+ricknmorty-postgres  | INSERT 0 1
+ricknmorty-postgres  | INSERT 0 1
+ricknmorty-postgres  | INSERT 0 1
+ricknmorty-postgres  | INSERT 0 1
+ricknmorty-postgres  | INSERT 0 1
+ricknmorty-postgres  | INSERT 0 1
+ricknmorty-postgres  | INSERT 0 1
+ricknmorty-postgres  | INSERT 0 1
+ricknmorty-postgres  | INSERT 0 1
+ricknmorty-postgres  | INSERT 0 1
+ricknmorty-postgres  | INSERT 0 1
+ricknmorty-postgres  | INSERT 0 1
+ricknmorty-postgres  | INSERT 0 1
+ricknmorty-postgres  | INSERT 0 1
+ricknmorty-postgres  | INSERT 0 1
+ricknmorty-postgres  | INSERT 0 1
+ricknmorty-postgres  | INSERT 0 1
+ricknmorty-postgres  | INSERT 0 1
+ricknmorty-postgres  | INSERT 0 1
+ricknmorty-postgres  | INSERT 0 1
+ricknmorty-postgres  | INSERT 0 1
+ricknmorty-postgres  | INSERT 0 1
+ricknmorty-postgres  | INSERT 0 1
+ricknmorty-postgres  | INSERT 0 1
+ricknmorty-postgres  | INSERT 0 1
+ricknmorty-postgres  | INSERT 0 1
+ricknmorty-postgres  | INSERT 0 1
+ricknmorty-postgres  | INSERT 0 1
+ricknmorty-postgres  | INSERT 0 1
+ricknmorty-postgres  | INSERT 0 1
+ricknmorty-postgres  | INSERT 0 1
+ricknmorty-postgres  | INSERT 0 1
+ricknmorty-postgres  | INSERT 0 1
+ricknmorty-postgres  | INSERT 0 1
+ricknmorty-postgres  | INSERT 0 1
+ricknmorty-postgres  | INSERT 0 1
+ricknmorty-postgres  | INSERT 0 1
+ricknmorty-postgres  | INSERT 0 1
+ricknmorty-postgres  | INSERT 0 1
+ricknmorty-postgres  | INSERT 0 1
+ricknmorty-postgres  | INSERT 0 1
+ricknmorty-postgres  | INSERT 0 1
+ricknmorty-postgres  | INSERT 0 1
+ricknmorty-postgres  | INSERT 0 1
+ricknmorty-postgres  | INSERT 0 1
+ricknmorty-postgres  | INSERT 0 1
+ricknmorty-postgres  | INSERT 0 1
+ricknmorty-postgres  | INSERT 0 1
+ricknmorty-postgres  | INSERT 0 1
+ricknmorty-postgres  | INSERT 0 1
+ricknmorty-postgres  | INSERT 0 1
+ricknmorty-postgres  | INSERT 0 1
+ricknmorty-postgres  | INSERT 0 1
+ricknmorty-postgres  | INSERT 0 1
+ricknmorty-postgres  | INSERT 0 1
+ricknmorty-postgres  | INSERT 0 1
+ricknmorty-postgres  | INSERT 0 1
+ricknmorty-postgres  | INSERT 0 1
+ricknmorty-postgres  | INSERT 0 1
+ricknmorty-postgres  | INSERT 0 1
+ricknmorty-postgres  | INSERT 0 1
+ricknmorty-postgres  | INSERT 0 1
+ricknmorty-postgres  | INSERT 0 1
+ricknmorty-postgres  | INSERT 0 1
+ricknmorty-postgres  | INSERT 0 1
+ricknmorty-postgres  | INSERT 0 1
+ricknmorty-postgres  | INSERT 0 1
+ricknmorty-postgres  | INSERT 0 1
+ricknmorty-postgres  | INSERT 0 1
+ricknmorty-postgres  | INSERT 0 1
+ricknmorty-postgres  | INSERT 0 1
+ricknmorty-postgres  | INSERT 0 1
+ricknmorty-postgres  | INSERT 0 1
+ricknmorty-postgres  | INSERT 0 1
+ricknmorty-postgres  | INSERT 0 1
+ricknmorty-postgres  | INSERT 0 1
+ricknmorty-postgres  | INSERT 0 1
+ricknmorty-postgres  | INSERT 0 1
+ricknmorty-postgres  | INSERT 0 1
+ricknmorty-postgres  | INSERT 0 1
+ricknmorty-postgres  | INSERT 0 1
+ricknmorty-postgres  | INSERT 0 1
+ricknmorty-postgres  | INSERT 0 1
+ricknmorty-postgres  | INSERT 0 1
+ricknmorty-postgres  | INSERT 0 1
+ricknmorty-postgres  | INSERT 0 1
+ricknmorty-postgres  | INSERT 0 1
+ricknmorty-postgres  | INSERT 0 1
+ricknmorty-postgres  | INSERT 0 1
+ricknmorty-postgres  | INSERT 0 1
+ricknmorty-postgres  | INSERT 0 1
+ricknmorty-postgres  | INSERT 0 1
+ricknmorty-postgres  | INSERT 0 1
+ricknmorty-postgres  | INSERT 0 1
+ricknmorty-postgres  | INSERT 0 1
+ricknmorty-postgres  | INSERT 0 1
+ricknmorty-postgres  | INSERT 0 1
+ricknmorty-postgres  | INSERT 0 1
+ricknmorty-postgres  | INSERT 0 1
+ricknmorty-postgres  | INSERT 0 1
+ricknmorty-postgres  | INSERT 0 1
+ricknmorty-postgres  | INSERT 0 1
+ricknmorty-postgres  | INSERT 0 1
+ricknmorty-postgres  | INSERT 0 1
+ricknmorty-postgres  | INSERT 0 1
+ricknmorty-postgres  | INSERT 0 1
+ricknmorty-postgres  | INSERT 0 1
+ricknmorty-postgres  | INSERT 0 1
+ricknmorty-postgres  | INSERT 0 1
+ricknmorty-postgres  | INSERT 0 1
+ricknmorty-postgres  | INSERT 0 1
+ricknmorty-postgres  | INSERT 0 1
+ricknmorty-postgres  | INSERT 0 1
+ricknmorty-postgres  | INSERT 0 1
+ricknmorty-postgres  | INSERT 0 1
+ricknmorty-postgres  | INSERT 0 1
+ricknmorty-postgres  | INSERT 0 1
+ricknmorty-postgres  | INSERT 0 1
+ricknmorty-postgres  | INSERT 0 1
+ricknmorty-postgres  | INSERT 0 1
+ricknmorty-postgres  | INSERT 0 1
+ricknmorty-postgres  | INSERT 0 1
+ricknmorty-postgres  | INSERT 0 1
+ricknmorty-postgres  | INSERT 0 1
+ricknmorty-postgres  | INSERT 0 1
+ricknmorty-postgres  | INSERT 0 1
+ricknmorty-postgres  | INSERT 0 1
+ricknmorty-postgres  |
+ricknmorty-postgres  |
+ricknmorty-postgres  | waiting for server to shut down....2026-03-06 21:46:25.737 UTC [41] LOG:  received fast shutdown request
+ricknmorty-postgres  | 2026-03-06 21:46:25.742 UTC [41] LOG:  aborting any active transactions
+ricknmorty-postgres  | 2026-03-06 21:46:25.746 UTC [41] LOG:  background worker "logical replication launcher" (PID 47) exited with exit code 1
+ricknmorty-postgres  | 2026-03-06 21:46:25.746 UTC [42] LOG:  shutting down
+ricknmorty-postgres  | 2026-03-06 21:46:25.751 UTC [42] LOG:  checkpoint starting: shutdown immediate
+ricknmorty-postgres  | 2026-03-06 21:46:26.144 UTC [42] LOG:  checkpoint complete: wrote 948 buffers (5.8%); 0 WAL file(s) added, 0 removed, 0 recycled; write=0.053 s, sync=0.325 s, total=0.398 s; sync files=307, longest=0.008 s, average=0.002 s; distance=4457 kB, estimate=4457 kB; lsn=0/19476A8, redo lsn=0/19476A8
+ricknmorty-postgres  | 2026-03-06 21:46:26.162 UTC [41] LOG:  database system is shut down
+ricknmorty-postgres  |  done
+ricknmorty-postgres  | server stopped
+ricknmorty-postgres  |
+ricknmorty-postgres  | PostgreSQL init process complete; ready for start up.
+ricknmorty-postgres  |
+ricknmorty-postgres  | 2026-03-06 21:46:26.281 UTC [1] LOG:  starting PostgreSQL 17.8 on x86_64-pc-linux-musl, compiled by gcc (Alpine 15.2.0) 15.2.0, 64-bit
+ricknmorty-postgres  | 2026-03-06 21:46:26.282 UTC [1] LOG:  listening on IPv4 address "0.0.0.0", port 5432
+ricknmorty-postgres  | 2026-03-06 21:46:26.282 UTC [1] LOG:  listening on IPv6 address "::", port 5432
+ricknmorty-postgres  | 2026-03-06 21:46:26.291 UTC [1] LOG:  listening on Unix socket "/var/run/postgresql/.s.PGSQL.5432"
+ricknmorty-postgres  | 2026-03-06 21:46:26.307 UTC [59] LOG:  database system was shut down at 2026-03-06 21:46:26 UTC
+ricknmorty-postgres  | 2026-03-06 21:46:26.323 UTC [1] LOG:  database system is ready to accept connections
+ricknmorty-postgres  | 2026-03-06 21:51:26.227 UTC [57] LOG:  checkpoint starting: time
+ricknmorty-postgres  | 2026-03-06 21:51:36.530 UTC [57] LOG:  checkpoint complete: wrote 102 buffers (0.6%); 0 WAL file(s) added, 0 removed, 0 recycled; write=10.223 s, sync=0.056 s, total=10.304 s; sync files=42, longest=0.008 s, average=0.002 s; distance=568 kB, estimate=568 kB; lsn=0/19D57D0, redo lsn=0/19D5740
+
+C:\Users\leona\Desktop\INFNET_2T26\DR3_TP1\Question2\DEVOPS2026-ricknmorty-api>
